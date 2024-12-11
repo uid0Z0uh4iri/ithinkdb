@@ -28,7 +28,7 @@ Cette table contient les informations sur les projets créés par les entreprise
 | `description`    | TEXT         | Description du projet                     |
 | `category_id`    | INT          | Identifiant de la catégorie du projet      |
 | `user_id`        | INT          | Identifiant de l'utilisateur ayant créé le projet (référence à la table `Users`) |
-| `created_at`     | TIMESTAMP    | Date et heure de création du projet        |
+
 
 ### 3. **Categories (Catégories)**
 Cette table contient les différentes catégories de projets (ex : développement web, design graphique, etc.).
@@ -48,7 +48,7 @@ Cette table contient les offres soumises par les freelances pour les projets.
 | `freelancer_id`  | INT          | Identifiant du freelance soumettant l'offre (référence à la table `Users`) |
 | `rate`           | DECIMAL(10, 2)| Tarif proposé pour le projet               |
 | `description`    | TEXT         | Description de l'offre                     |
-| `created_at`     | TIMESTAMP    | Date et heure de soumission de l'offre     |
+
 
 ### 5. **Testimonials (Témoignages)**
 Cette table contient les témoignages laissés par les utilisateurs concernant les projets ou freelances.
@@ -59,7 +59,7 @@ Cette table contient les témoignages laissés par les utilisateurs concernant l
 | `user_id`        | INT          | Identifiant de l'utilisateur qui laisse le témoignage (référence à la table `Users`) |
 | `project_id`     | INT          | Identifiant du projet concerné (référence à la table `Projects`) |
 | `content`        | TEXT         | Contenu du témoignage                      |
-| `created_at`     | TIMESTAMP    | Date et heure de création du témoignage    |
+
 
 ### 6. **Freelancers (Freelances)**
 Cette table contient des informations supplémentaires sur les freelances (compétences, expérience, etc.).

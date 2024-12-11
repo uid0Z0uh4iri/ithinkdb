@@ -69,4 +69,5 @@ CREATE TABLE Temoignages (
     FOREIGN KEY (id_utilisateur) REFERENCES Utilisateurs(id_utilisateur)
 );
 
-SHOW tables
+
+SHOW TABLES;
